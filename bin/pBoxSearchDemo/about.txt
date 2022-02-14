@@ -1,0 +1,72 @@
+
+                  pBoxSearch v0.0.6 - Thomas Freedman - 2/7/2022
+
+This prototype Pirate Stick was created by Thomas Freedman as a foundation to build a more refined and grandpa friendly product. This release of the Pirate Stick is built from the Pirate Box software. It is a bootable, standalone IPFS node customized to demonstrate portable, personal and out of the box functionality including:
+
+--------------------------------------------------
+Basic IPFS Node and User Interface
+
+This is provided through the Chromium web browser with the IPFS Companion extension, which is the same User Interface found in IPFS Desktop. Node status, real time graphics of network utilization, ability to view, download, pin and unpin files, inspect IPFS configuration and other useful tools are provided. See  https://github.com/ipfs-shipyard/ipfs-companion or  https://docs.ipfs.io/install/ipfs-desktop/#windows.  
+
+----------------------------------------
+Pirate Stick IPFS Search Tool
+
+This tool implements search functionality based on metadata collected when content is added to an IPFS node. Much more work is required to define the standards for metadata and how it will be collected. 
+
+The search tool uses the metadata to find content by allowing the user to define a filter to locate content of interest based on their specific search criteria.
+
+The IPFS Search Demo tool uses the metadata captured by the Video Grabber tool. A subset of the metadata provided by the youtube-dl program serves as one model (data schema) for audio and video content. 
+
+It's important to note only content captured by the Video Grabber tool is currently searchable. Two IPFS video / audio repositories with well over 12,000 items published in the past 2 years from platforms such as youtube, Vimeo, Brightcove and others are searchable. New content is provided daily and is within the scope of the search tool. Content from over 20 publishers is provided on those 2 IPFS repositories. In addition, the "Liberty Library" content is also searchable (see below).
+
+Audio and video content added to the local Pirate Stick IPFS node using the Video Grabber program is also searchable, however that capability is not yet fully developed nor a GUI for it yet designed.
+
+Other types of content providers besides audio and video will have different requirements for their metadata. More work needs to be done to define how metadata is:
+
+                        1) defined
+                        2) collected
+                        3) published
+                        4) represented in search tools
+
+The search tool uses 20 metadata fields out of the 60+ available in the youtube-dl set. Whether a universal standard metadata definition can or will be developed to encompass all types of content has yet to be determined. 
+
+----------------------------------------------
+Pirate Stick Video Grabber (Still referred to as PBVG)
+
+The PBVG tool was originally developed as a command line program that uses the popular youtube-dl software to download content from a list of over 1000 platforms such as youtube and Vimeo. The full functionality of the program is available as a  "batch" oriented command line tool. However, with this release of the Pirate Stick a simple GUI front end is now available to provide an easy to use interface to obtain content from a list of URLs. Content obtained this way is also searchable using the Pirate Stick Search tool.
+
+Batch mode operation provides the ability to be selective of the content gathers using filter criteria such as upload date, duration of play and download quota limits. In addition, content from many different publishers on various platforms can be collected frequently. A scheduler such as cron can automate collection of content from your favorite sources on a regular basis.
+
+The content to be captured by the PBVG is defined in a JSON formated config file that specifies the URLs to download content from, which can be individual files, channels or playlists. Metadata for each item downloaded is also collected. The metadata and the video / audio content files are stored in a SQLite database and published at a static IPnS address for retrieval and use by search engines.
+
+Further refinement of the PBVG is envisioned including a more comprehensive GUI front end to create the JSON config file. The search tool previously described is capable of searching any content added to te Pirate Stick using the PBVG.
+
+--------------------
+Liberty Library
+
+This release of the Pirate Stick includes software infrastructure that supports plug & play content referred to as Liberty Libraries. Portable USB storage devices and USB sticks in very large capacities (currently up to 2 Terabytes) can store huge volumes of information on a  simple USB stick. One example I created was a 512GB drive containing almost 1800 1000 long play format (60 - 90 minutes each) video and audio files saved on IPFS over the last 2 years by Thomas Freedman. This content is available and can be pinned on Pirate Stick IPFS nodes or saved on portable Liberty Library devices. Liberty Library content can also be searched with the Pirate Stick Search tool described above.
+
+----------------------
+Hotspot Control
+
+The autohotspot software from RaspberryConnect.com provide many options to control the networking, including WiFi hotspots for the Pirate Stick. It is now possible to start the Pirate Stick "headless" (no screen or keyboard) and operate it as a battery powered, WiFi hotspot.
+
+----------------------------------------
+Upgrade to External Storage
+
+SD Cards are wonderful for their small size, but they aren't the best for long term, reliable use. It can be a complicated process to setup external storage, but it is now possible to migrate or upgrade the IPFS storage on your Pirate Stick to an external USB device such as a portable hardrive or Solid State Drive (SSD).
+
+---------------------------------------
+Offline IPFS Documentation
+
+This release also includes a complete copy of the IPFS documentation from the docs.ipfs.io website, updated slightly for use on the Pirate Stick while offline. Tutorials are included for migrating websites to IPFS. 
+
+------------------------
+Nginx Webserver
+
+To serve the documentation and provide support for other homegrown web applications, the Pirate Stick now includes it's very own webserver. 
+
+---------------------------------
+Support for Moonbeam
+
+Moonbeam, a self publisher solution from agoristhosting.com is a browser based application that provides a way to capture and publish content to IPFS. When Moonbeam becomes available, it can be used on the Pirate Stick. A simple to use tool to create, list and remove keys for use with Moonbeam or IPNS is now included.
