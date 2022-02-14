@@ -1,0 +1,33 @@
+{
+  "Comments": [
+    "This is a template configuration file used by the Pirate Stick",
+    "Video Grabber tool (PBVG)."
+  ],
+  "DLbase": "/home/ipfs/bin/videoGrabber/ytDL/",
+  "DLeLog": "error.log",
+  "DLarch": "youtube-dl.history",
+  "DLmeta": "metadataFields.json",
+  "DLOpts": {
+    "retries": 5,
+    "format": "best",
+    "continuedl": true,
+    "ignoreerrors": true,
+    "merge-output-format": "mp4"
+  },
+  "Grupes": {
+    "PBVG": {
+      "Quota": 0,
+      "Active": true,
+      "Duration": 0,
+      "Start": null,
+      "End": null,
+      "Stop": 300,
+      "urls": [
+        "https://www.youtube.com/watch?v=83m261lAlrs",
+        "https://www.youtube.com/watch?v=gbQS1ExSeBQ",
+        "https://www.youtube.com/watch?v=CH7tlyvnKLQ",
+        "https://www.youtube.com/watch?v=Y44Hht4wwEk"
+      ]
+    }
+  }
+}
