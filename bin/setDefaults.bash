@@ -51,6 +51,6 @@ if [ -f $nom ] && [ "$nam" == "" ]; then
   sed -i "s/\(node_name *=\)\(.*\)/\1 $ssid/" $nom > /dev/null 2>&1
   echo ${nhp/ ID / $ssid } > $idx
 fi
-if grep -q 'Anonymous Peer' $peer ; then
+if [ ! -f $peer ] || grep -q 'Anonymous Peer' $peer ; then
   nomadUtils.py $ssid
 fi
