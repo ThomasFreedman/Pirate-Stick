@@ -36,7 +36,7 @@ fi
 # Make sure all of the ssid values are consistent
 #
 sed -i -e "/^ssid=/c\ssid=$ssid" $hot      # (re)Set hotspot ssid to use
-######sudo cp $hot $etc > /dev/null 2>&1         # Set daemon process config
+sudo cp $hot $etc > /dev/null 2>&1         # Set daemon process config
 sed -i "s/\( is:\)\(.*\)<\/p>/\1 $ssid<\/p>/" ${www}/pbox-ssid.html
 h="href='pbox-ssid.html'"
 t="title='hotspot SSID: "$ssid"'"
