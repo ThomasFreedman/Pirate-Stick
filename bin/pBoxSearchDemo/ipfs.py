@@ -75,7 +75,7 @@ class Ipfs:
     def get(self, hash, gui, x, y, ipns=None, save=None):
         if save: out = save
         else: out = hash + ".file"
-        if not ipns: hash = '/ipns/' + hash   # Add ipNs prefix
+        if ipns: hash = '/ipns/' + hash   # Add ipNs prefix
         #self.Server.get(hash, target=self.DLfolder)
         gui.showNotification("ipfs get", save)
         args = ["ipfs", "get", f"-o={out}", f"{hash}"]
