@@ -75,7 +75,6 @@ class Ipfs:
         else: out = hash + ".file"
         if ipns: hash = '/ipns/' + hash   # Add ipNs prefix
         #self.Server.get(hash, target=self.DLfolder)
-        gui.showNotification("ipfs get", save)
         args = ["ipfs", "get", f"-o={out}", f"{hash}"]
 
         # Use command line for now to run the IPFS command
@@ -91,8 +90,7 @@ class Ipfs:
         output = ""
         result = False
         progress = 0
-        max = 180
-#        max = self.MaxWaitTime
+        max = self.MaxWaitTime
         timer = max
         pop = gui.progressWindow("open", x, y, 0, timer, max) # Show progress popup
         while True:
@@ -112,7 +110,6 @@ class Ipfs:
             gui.progressWindow(pop, x, y, progress, timer, max) # Decr timer
 
         gui.progressWindow(pop, 0, 0, -1, 0, max)       # Close the progress popup
-        print(output)
         return result
     
 
