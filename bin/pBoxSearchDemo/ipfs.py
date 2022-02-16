@@ -30,8 +30,6 @@ class Ipfs:
                 'k2k4r8kzf2pxvn73cm1nwtz57zh6e363r7m61k0ghailc0oazmwc4nox',
             'PBVG Database':
                 'pbvg',
-            'Test Video file':
-                'QmUXaxkV7P5H6jEK4CuyneTQ8MJrhuWxitHfSHMdcEJBte',
             'Liberty Library on USB':
                 'llbry.sqlite'
         }
