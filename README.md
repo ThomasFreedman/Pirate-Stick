@@ -1,5 +1,5 @@
 # Pirate-Stick
-A Bootable USB version of Pirate Box based on MX-Linux
+A Bootable USB version of Pirate Box based on the popular MX-Linux distribution
 
 I intend to provide ISO images you can create your own Pirate Stick from. This repo is not here to provide every single element or step by step tutorial to create those ISOs, but will serve as a repository for the majority of the elements that I will use to create the Pirate Stick ISO.
 
