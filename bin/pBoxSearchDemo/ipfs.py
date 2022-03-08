@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 from nonblock import nonblock_read
 import ipfshttpclient as api
 import PySimpleGUI as sg
@@ -54,13 +53,13 @@ class Ipfs:
                                         grab_anywhere=True)
                     if a == "Yes":
                         os.rename(cache, cache + dt)
-                    if not Ipfs.get(self, hash, gui, x, y, 'ipns', cache):
-                        sg.popup("Oh no!", "A problem occured while",
-                                 f"updating the metadata from {serverName}!",
-                                 "Reverting to the previous metadata.",
-                                 no_titlebar=False, location=(x + 450, y + 100),
-                                 background_color="#602020", grab_anywhere=True)
-                        os.rename(cache + dt, cache)
+                        if not Ipfs.get(self, hash, gui, x, y, 'ipns', cache):
+                            sg.popup("Oh no!", "A problem occured while",
+                                     f"updating the metadata from {serverName}!",
+                                     "Reverting to the previous metadata.",
+                                     no_titlebar=False, location=(x + 450, y + 100),
+                                     background_color="#602020", grab_anywhere=True)
+                            os.rename(cache + dt, cache)
             else:
                 # Use notify-send to say no file so we're getting it
                 gui.showNotification("No file!", "Initializing the cache...")
@@ -110,7 +109,7 @@ class Ipfs:
                 if timer < 1: break
             gui.progressWindow(pop, x, y, progress, timer, max) # Decr timer
 
-        gui.progressWindow(pop, 0, 0, -1, 0, max)       # Close the progress popup
+        gui.progressWindow(pop, 0, 0, -1, 0, max)  # Close the progress popup
         gui.hideNotification()
         return result
 
@@ -167,3 +166,4 @@ class Ipfs:
 
         gui.progressWindow(pop, 0, 0, -1, 0, max)   # Close the progress popup
         return result
+
