@@ -1,3 +1,22 @@
+#!/bin/bash
+www=/var/www/html
+hst=/etc/hosts
+etc=/etc/create_ap.conf
+nom=$HOME/.nomadnetwork/config
+idx=$HOME/.nomadnetwork/storage/pages/index.mu
+peer=$HOME/.nomadnetwork/storage/peersettings
+inst=$HOME/Desktop/minstall.desktop
+shar=/usr/share/applications/minstall.desktop
+
+nhp='Hello! This is the index.mu for ID on nomad network'
+
+cd $HOME/bin
+$HOME/bin/initIPFS.bash  # Create the default IPFS server
+
+# This script sets various defaults such as the SSID for the
+# WiFi hotspot and Nomadnet node name for Reticulum network,
+# and keeps various files under the webserver updated.
+
 # Get the current number from the default hotspot SSID or
 # generate one if no hotspot SSID has been set.  Set both
 # num and ssid.  ssid will always be valid but num may be
@@ -38,4 +57,4 @@ fi
 # Force MX Linux installer icon on desktop to change
 logo=/usr/local/share/images/pirateBoxLogo300x400WhiteOnTransparent.png
 sed -i "s|^\(Icon=\).*|\1$logo|" $inst > /dev/null 2>&1
-Icon=
+sed -i "s|^\(Icon=\).*|\1$logo|" $shar > /dev/null 2>&1
