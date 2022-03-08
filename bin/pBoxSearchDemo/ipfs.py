@@ -47,7 +47,7 @@ class Ipfs:
                 age = (time.time() - stat.st_mtime) / 3600   # Cache age in hrs
                 if age > self.DBcacheTime:        # If old, ask user to refresh
                     msg = f"Update metadata for {serverName}?"
-                    a = sg.popup_yes_no(msg, no_titlebar=True,
+                    a = sg.popup_yes_no(msg, no_titlebar=False,
                                         location=(x + 450, y + 100),
                                         background_color="#3E3E30",
                                         grab_anywhere=True)
@@ -57,11 +57,11 @@ class Ipfs:
                         sg.popup("Oh no!", "A problem occured while",
                                  f"updating the metadata from {serverName}!",
                                  "Reverting to the previous metadata.",
-                                 no_titlebar=True, location=(x + 450, y + 100),
+                                 no_titlebar=False, location=(x + 450, y + 100),
                                  background_color="#602020", grab_anywhere=True)
                         os.rename(cache + dt, cache)
             else:
-                # Use notify-send or whatever to say no file so we're getting it
+                # Use notify-send to say no file so we're getting it
                 gui.showNotification("No file!", "Initializing the cache...")
                 Ipfs.get(self, hash, gui, x, y, 'ipns', cache)
         return cache
@@ -86,7 +86,7 @@ class Ipfs:
                      inspect.stack()[1][3] + ' error: ' + str(e),
                      location=(locX + 300, locY - 100))
             return False
-                
+
         output = ""
         result = False
         progress = 0
@@ -110,8 +110,9 @@ class Ipfs:
             gui.progressWindow(pop, x, y, progress, timer, max) # Decr timer
 
         gui.progressWindow(pop, 0, 0, -1, 0, max)       # Close the progress popup
+        gui.hideNotification()
         return result
-    
+
 
     # Add a file to IPFS and return it's hash.
     # At least for now this will be handled by webui in browser
@@ -137,7 +138,7 @@ class Ipfs:
             sg.popup("Aw shucks, something went wrong...",
                      inspect.stack()[1][3] + ' error: ' + str(e))
             return False
-                
+
         output = ""
         result = None
         progress = 0
@@ -153,7 +154,7 @@ class Ipfs:
             elif len(pinOut) > 0:
                 output += str(pinOut)
                 progress += 1
- #               resWin['-PROG-'].update(current_count=progress, max=max)
+#               resWin['-PROG-'].update(current_count=progress, max=max)
             else:
                 time.sleep(1)
                 timer -= 1
