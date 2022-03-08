@@ -339,7 +339,7 @@ def addRow(conn, cols, gvmjList):
 
 # Add a row to the SQLite database for every video  downloaded for this grupe,
 # print the successes and failures and log the failures to the error log file.
-# NOTE: Reduced printed output for Pirate Stick for leaner reporting.
+# NOTE: Reduced printed output for Pirate Box for leaner reporting.
 def processGrupeResults(conn, cols, urls, grupe, eLog):
     global ErrorList, SQLrows2Add
     downloads = len(SQLrows2Add)
