@@ -27,6 +27,7 @@ These issues are resolved by replacing or adding the following files.
 A reboot or logout / login is not required.
 
 in ~ (/home/ipfs):
+   Desktop/PSIP1.README
    bin/setDefaults.bash
    bin/videoGrabber/pbvg.bash
    bin/pBoxSearchDemo/ipfs.py
