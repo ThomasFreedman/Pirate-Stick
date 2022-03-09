@@ -31,6 +31,7 @@ in ~ (/home/ipfs):
    bin/videoGrabber/pbvg.bash
    bin/pBoxSearchDemo/ipfs.py
    bin/pBoxSearchDemo/pboxSearch.json
+   .config/xfce4/panel/launcher-3/16450316691.desktop
    .local/share/applications/advReticulum.desktop
    .local/share/applications/advYggdrasl.desktop
    .local/share/applications/advXmppMesh.desktop
