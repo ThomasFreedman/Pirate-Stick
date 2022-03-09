@@ -17,8 +17,9 @@ To install this patch:
 1 - download the PSIP1.tgz compressed tar file and copy it to /home/ipfs.
 2 - as ipfs user, open a terminal window and run these commands:
 
-cd /
-sudo tar xzf /home/ipfs/PSIP1.tgz
+cd /home/ipfs
+tar xzf ./PSIP1.tgz
+./PSIP1.install
 
 
 WHAT THIS PATCH DOES
