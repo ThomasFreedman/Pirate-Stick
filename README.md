@@ -1,14 +1,18 @@
+![image](https://github.com/ThomasFreedman/Pirate-Stick/blob/main/pirateStickBootScreen.png?raw=true)
+![image](https://github.com/ThomasFreedman/Pirate-Stick/blob/main/pirateStickDesktop.jpg?raw=true)
+
 # Pirate-Stick
+---------------------------------
 A Bootable USB version of Pirate Box based on the popular MX-Linux distribution
 
 I intend to provide ISO images you can create your own Pirate Stick from. This repo is not here to provide every single element or step by step tutorial to create those ISOs, but will serve as a repository for the majority of the elements that I will use to create them.
 
 # Rational
-
+---------------------------------
 Due to the increasing supply chain disruptions taking place it is becoming increasingly difficult and costly to obtain Raspberry Pi computers. For this reason I'm shifting my focus to a new product I am calling the Pirate Stick. It will utilize the same custom software I created for The Pirate Box but is built for use on more readily available hardware. 
 
 # Description
-
+---------------------------------
 Pirate Stick is a refinement of the Pirate Box created by Thomas Freedman in 2021. The original purpose of both products is gathering, tracking and storing media content, primarily but not limited to video and audio content. They both utilize the Interplanetary File System (IPFS) as their main storage repository. IPFS is a highly decentralized and global network of computers providing censorship resistance and performance that improves as it scales. Think of IPFS as "personal cloud storage" you are in full control of and the Pirate Box or Pirate Stick as your tool to control it. You decide how public or private the data you store there should be.
 
 Whereas the Pirate Box is a small sized (2 decks of playing cards), portable, energy efficient but powerful "Raspberry Pi" computer, the Pirate Stick is a high performance, USB3 SSD drive that can transform almost any computer into the functional equivalent of a Pirate Box. It is a self contained, "live"  operating system "on a stick" that can be used with most computers and does not need to install anything on them (but it can if you want to). It will leave no trace on the machines it is used with and it won't touch the machine's hard drive - it doesn't even need a hard drive!
