@@ -11,7 +11,7 @@ This repo is not here to provide every single element or a step by step tutorial
 ---------------------------------
 ***Rational***
 
-Due to the increasing supply chain disruptions taking place it is becoming increasingly difficult and costly to obtain Raspberry Pi computers. For this reason I'm shifting my focus to a new product I am calling the Pirate Stick. It will utilize the same custom software I created for The Pirate Box but is built for use on more readily available hardware. 
+Due to the supply chain disruptions taking place it is becoming increasingly difficult and costly to obtain Raspberry Pi computers. For this reason I'm shifting my focus to a new product I am calling the Pirate Stick. It will utilize the same custom software I created for The Pirate Box but is built for use on more readily available hardware. 
 
 ---------------------------------
 ***Description***
