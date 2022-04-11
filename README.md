@@ -4,7 +4,7 @@
 # Pirate-Stick
 A Bootable USB version of Pirate Box based on the popular MX-Linux distribution
 
-The delivery of the Pirate Stick will be via download from IPFS, so that anyone can create their own Pirate Stick on whatever USB media they prefer. The images are for x86 (Intel or AMD 64 bit processors, *NOT* ARM, not for Raspberry Pi). The IPFS CID for pStickRC1-3-3-2022.iso is: QmTBPD1zsMLP6d23iYB3fsiRQH9MvgMKUzDYsNUUX3PZYz - prefix your favorite IPFS public gateway or use your own IPFS node to download the ISO and flash it to USB. See the [Docs](https://github.com/ThomasFreedman/Pirate-Stick/tree/main/Docs) folder within this repo for further information.
+The delivery of the Pirate Stick will be via download from IPFS, so that anyone can create their own Pirate Stick on whatever USB media they prefer. The images are for x86 (Intel or AMD 64 bit processors, *NOT* ARM, not for Raspberry Pi). The IPFS CID for pStickRC2-20220404_2359 is: QmQ1aKKEQt54XkUnLFqTgmyMJ8wGVgETtd7MotiRu9Ub52 - prefix your favorite IPFS public gateway or use your own IPFS node to download the ISO and flash it to USB. The sha256 download verification for that CID is: c42734d1be012c7625f8cf85af66ddbc6e0bc62f85434e059fbc551a383ed8e3
 
 This repo is not here to provide every single element or a step by step tutorial to create those ISOs, but will serve as a repository for the majority of the elements that I will use to create them.
 
