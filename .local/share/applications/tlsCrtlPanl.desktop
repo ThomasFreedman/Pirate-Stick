@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=IPFS Control Panel
+Exec=chromium  --password-store=basic http://127.0.0.1:5001/ipfs/bafybeif4zkmu7qdhkpf3pnhwxipylqleof7rl6ojbe7mq3fzogz6m4xk3i/#/welcome
+Comment=The IPFS User Interface, same as IPFS Desktop
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkull98x128.svg
+Type=Application
+Path=
+StartupNotify=false

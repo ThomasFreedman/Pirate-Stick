@@ -1,0 +1,7 @@
+2022/04/04-19:52:39.353 3 Reusing MANIFEST /home/ipfs/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2022/04/04-19:52:39.355 3 Recovering log #52
+2022/04/04-19:52:39.355 3 Level-0 table #55: started
+2022/04/04-19:52:39.366 3 Level-0 table #55: 25944 bytes OK
+2022/04/04-19:52:39.366 3 Recovering log #55
+2022/04/04-19:52:39.366 3 Reusing old log /home/ipfs/.config/chromium/Default/Local Storage/leveldb/000055.log 
+2022/04/04-19:52:39.370 3 Delete type=0 #52

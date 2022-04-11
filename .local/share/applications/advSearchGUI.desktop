@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=IPFS Search Tool
+Exec=/home/ipfs/bin/ipfsSearch/pboxSearch.py
+Comment=Searches local or remote IPFS servers
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkullWhite98x128.svg
+Type=Application
+Path=
+StartupNotify=false

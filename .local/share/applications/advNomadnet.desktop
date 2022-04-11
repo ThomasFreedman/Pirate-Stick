@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Nomadnet Client
+Exec=xfce4-terminal -e nomadnet
+Comment=Starts Nomadnet Client on Reticulum Network
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkullWhite98x128.svg
+Type=Application
+Path=
+StartupNotify=false

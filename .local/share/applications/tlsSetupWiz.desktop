@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=IPFS Setup Wizard
+Exec=/home/ipfs/bin/ipfsSetupWizard.bash
+Comment=Start here to setup your IPFS node
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkull98x128.svg
+Type=Application
+Categories=PirateBoxToolsCategory;
+Path=
+StartupNotify=false

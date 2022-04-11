@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Eject USB Liberty Library Safely
+Exec=/home/ipfs/bin/libertyLibrary/ejectLL.bash
+Comment=Use this to prevent damage to your Liberty Library
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkull98x128.svg
+Type=Application
+Path=
+StartupNotify=false

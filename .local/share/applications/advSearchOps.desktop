@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Search Tool Quickstart
+Exec=/home/ipfs/bin/ipfsSearch/quickStart.bash
+Comment=A quickstart guide for using IPFS search
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkullWhite98x128.svg
+Type=Application
+Path=
+StartupNotify=false

@@ -1,0 +1,85 @@
+[2022-02-17 16:46:48] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 16:46:48] [Notice] No Primary Identity file found, creating new...
+[2022-02-17 16:46:48] [Notice] Created new Primary Identity <b97e80aea5c1ea170504>
+[2022-02-17 16:46:48] [Error] Could not load local peer settings from /home/ipfs/.nomadnetwork/storage/peersettings
+[2022-02-17 16:46:48] [Error] The contained exception was: 
+[2022-02-17 20:10:39] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 20:10:39] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 20:10:39] [Error] Could not load local peer settings from /home/ipfs/.nomadnetwork/storage/peersettings
+[2022-02-17 20:10:39] [Error] The contained exception was: 
+[2022-02-17 20:11:46] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 20:11:46] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 20:11:46] [Error] Could not load local peer settings from /home/ipfs/.nomadnetwork/storage/peersettings
+[2022-02-17 20:11:46] [Error] The contained exception was: 
+[2022-02-17 20:12:08] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 20:12:08] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 20:12:08] [Error] Could not load local peer settings from /home/ipfs/.nomadnetwork/storage/peersettings
+[2022-02-17 20:12:08] [Error] The contained exception was: 
+[2022-02-17 20:12:29] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 20:12:29] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 20:12:29] [Error] Could not load local peer settings from /home/ipfs/.nomadnetwork/storage/peersettings
+[2022-02-17 20:12:29] [Error] The contained exception was: 
+[2022-02-17 20:13:07] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 20:13:07] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 20:13:07] [Error] Could not load local peer settings from /home/ipfs/.nomadnetwork/storage/peersettings
+[2022-02-17 20:13:07] [Error] The contained exception was: 
+[2022-02-17 20:15:15] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 20:15:15] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 20:15:15] [Notice] No peer settings file found, creating new...
+[2022-02-17 20:15:15] [Notice] Created new peer settings file
+[2022-02-17 20:15:15] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-02-17 20:15:15] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-02-17 20:15:15] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-02-17 20:15:15] [Info] Starting user interface...
+[2022-02-17 20:16:19] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 20:16:19] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 20:16:19] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-02-17 20:16:19] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-02-17 20:16:19] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-02-17 20:16:19] [Info] Starting user interface...
+[2022-02-17 21:23:19] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-02-17 21:23:19] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-02-17 21:23:19] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-02-17 21:23:19] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-02-17 21:23:19] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-02-17 21:23:19] [Info] Starting user interface...
+[2022-03-02 12:06:44] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-03-02 12:06:44] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-03-02 12:06:44] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-03-02 12:06:44] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-03-02 12:06:44] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-03-02 12:06:44] [Info] Starting user interface...
+[2022-03-02 15:50:54] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-03-02 15:50:54] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-03-02 15:50:54] [Error] Could not load local peer settings from /home/ipfs/.nomadnetwork/storage/peersettings
+[2022-03-02 15:50:54] [Error] The contained exception was: unpacked string is invalid utf-8
+[2022-03-02 15:51:19] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-03-02 15:51:19] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-03-02 15:51:19] [Notice] No peer settings file found, creating new...
+[2022-03-02 15:51:19] [Notice] Created new peer settings file
+[2022-03-02 15:51:19] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-03-02 15:51:19] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-03-02 15:51:19] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-03-02 15:51:19] [Info] Starting user interface...
+[2022-03-02 15:54:14] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-03-02 15:54:14] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-03-02 15:54:14] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-03-02 15:54:14] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-03-02 15:54:14] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-03-02 15:54:14] [Info] Starting user interface...
+[2022-03-02 15:55:17] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-03-02 15:55:17] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-03-02 15:55:17] [Notice] No peer settings file found, creating new...
+[2022-03-02 15:55:17] [Notice] Created new peer settings file
+[2022-03-02 15:55:17] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-03-02 15:55:17] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-03-02 15:55:17] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-03-02 15:55:17] [Info] Starting user interface...
+[2022-03-29 10:34:50] [Notice] Configuration loaded from /home/ipfs/.nomadnetwork/config
+[2022-03-29 10:34:50] [Notice] Loaded Primary Identity <b97e80aea5c1ea170504> from /home/ipfs/.nomadnetwork/storage/identity
+[2022-03-29 10:34:50] [Notice] LXMF Router ready to receive on: <2024e78ee6d4a411f9d6>
+[2022-03-29 10:34:50] [Notice] LXMF Propagation Node started on: <51b238a31ae5a7d8b2e7>
+[2022-03-29 10:34:50] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-03-29 10:34:50] [Info] Starting user interface...
+[2022-03-29 11:23:00] [Warning] Could not autoselect a prepagation node! LXMF propagation will not be available until a trusted node announces on the network.
+[2022-03-29 11:23:17] [Notice] Peered with <lxmf.propagation.98405cf093a5f9432424/a79b5db1926161181a46>

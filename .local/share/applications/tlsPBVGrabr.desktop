@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Media Grabber Tool
+Exec=/home/ipfs/bin/mediaGrabber/mediaGrabber.bash
+Comment=Add content to IPFS from a list of URLs
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkull98x128.svg
+Type=Application
+Path=
+StartupNotify=false

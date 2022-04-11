@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=About Pirate Stick
+Exec=chromium --password-store=basic file:////var/www/html/about/index.html
+Comment=A summary of Pirate Stick tools
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkull98x128.svg
+Type=Application
+Path=/home/ipfs/bin
+StartupNotify=false

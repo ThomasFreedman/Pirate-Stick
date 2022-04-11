@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=IPFS Keys
+Exec=/home/ipfs/bin/ipfsKeys.bash
+Comment=Creates & Lists IPNS Keys
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkullWhite98x128.svg
+Type=Application
+Path=
+StartupNotify=false

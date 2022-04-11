@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Media Grabber Batch Information
+Exec=/home/ipfs/bin/mediaGrabber/batchMode.info
+Comment=Information about usig media grabber in batch mode 
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkullWhite98x128.svg
+Type=Application
+Path=
+StartupNotify=false

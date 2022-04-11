@@ -1,0 +1,13 @@
+[Unit]
+Description=Starts hotspot using create_ap
+StartLimitIntervalSec=300
+StartLimitBurst=5
+After=network.target
+
+[Service]
+# Start with root priviledges == + prefix
+ExecStart=+/usr/bin/create_ap --config /etc/create_ap.conf --logfile /var/log/create_ap.log
+Restart=on-failure
+RestartSec=60
+[Install]
+WantedBy=multi-user.target

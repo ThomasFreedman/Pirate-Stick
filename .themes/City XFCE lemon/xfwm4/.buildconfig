@@ -1,0 +1,10 @@
+[default]
+name=Default
+runtime=host
+config-opts=
+run-opts=
+prefix=/home/bitmint19/.cache/gnome-builder/install/xfwm4/host
+app-id=
+postbuild=
+prebuild=
+default=true

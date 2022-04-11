@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Hotspot Control
+Exec=/home/ipfs/bin/hotspot/hotspotMenu.bash
+Comment=Controls WiFi for hotspot or interface bridge
+Terminal=false
+Icon=/home/ipfs/.config/PirateStick/images/pirateSkull98x128.svg
+Type=Application
+Keywords=Hotspot;WiFi
