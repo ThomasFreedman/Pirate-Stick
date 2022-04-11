@@ -1,5 +1,5 @@
-![image](https://github.com/ThomasFreedman/Pirate-Stick/blob/main/pirateStickBootScreen.png?raw=true)
-![image](https://github.com/ThomasFreedman/Pirate-Stick/blob/main/pirateStickDesktop.jpg?raw=true)
+![image](https://github.com/ThomasFreedman/Pirate-Stick/blob/prior-to-20220407/pirateStickBootScreen.png?raw=true)
+![image](https://github.com/ThomasFreedman/Pirate-Stick/blob/prior-to-20220407/pirateStickDesktop.jpg?raw=true)
 
 # Pirate-Stick
 A Bootable USB version of Pirate Box based on the popular MX-Linux distribution
